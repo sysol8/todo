@@ -1,0 +1,50 @@
+.form,
+.label,
+.textarea {
+  inline-size: 100%;
+}
+
+.form {
+  block-size: 4.8rem;
+  background-color: var(--background-50);
+  display: flex;
+  border-radius: 0.8rem;
+}
+
+.label {
+  block-size: 100%;
+}
+
+.textarea {
+  block-size: 100%;
+  resize: none;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding-block: 0.4rem;
+  padding-inline: 0.8rem;
+
+  &::placeholder {
+    font: inherit;
+  }
+}
+
+.textarea::placeholder {
+  font: inherit;
+}
+
+.button {
+  display: inline-block;
+  inline-size: 3.2rem;
+  block-size: 3.2rem;
+  align-self: end;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: initial;
+  }
+}
+
+.icon {
+  block-size: 100%;
+  inline-size: 100%;
+}

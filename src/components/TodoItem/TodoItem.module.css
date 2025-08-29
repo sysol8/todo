@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: nowrap;
+  word-break: break-word;
+  font-size: 1.4rem;
+}

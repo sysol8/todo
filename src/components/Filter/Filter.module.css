@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.8rem;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 0.8rem;
+  padding-block: 0.4rem;
+  font-size: 1.2rem;
+  background-color: var(--primary-50);
+
+  &:hover {
+    background-color: var(--primary-300);
+  }
+
+  &:active {
+    background-color: var(--primary-400);
+  }
+}
+
+.active {
+  background-color: var(--primary-500);
+  cursor: initial;
+  pointer-events: none;
+}

@@ -1,0 +1,12 @@
+.label {
+  display: flex;
+  block-size: 2.4rem;
+  inline-size: 2.4rem;
+  background-color: var(--background-50);
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.icon {
+  color: var(--background-950);
+}
