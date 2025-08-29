@@ -2,9 +2,22 @@
   display: flex;
   block-size: 2.4rem;
   inline-size: 2.4rem;
-  background-color: var(--background-50);
+  background-color: var(--primary-50);
   border-radius: 0.8rem;
   flex-shrink: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-200);
+  }
+
+  &:active {
+    background-color: var(--primary-400);
+  }
+
+  &:has(:focus-visible) {
+    outline: 2px solid var(--secondary-400);
+  }
 }
 
 .icon {

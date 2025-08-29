@@ -9,6 +9,10 @@
   background-color: var(--background-50);
   display: flex;
   border-radius: 0.8rem;
+
+  &:has(:not(.button[type="submit"]):focus-visible) {
+    outline: 2px solid var(--secondary-400);
+  }
 }
 
 .label {
@@ -41,6 +45,15 @@
   &:disabled {
     opacity: 0.5;
     cursor: initial;
+  }
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary-400);
+    outline-offset: -0.4rem;
   }
 }
 

@@ -5,6 +5,7 @@
   justify-content: start;
   max-block-size: calc(64rem - 9.6rem);
   overflow-y: auto;
-  padding-inline-end: 1.6rem;
+  padding-block: 0.4rem 0.8rem;
+  padding-inline: 0.4rem 1.6rem;
   color: var(--text-50);
 }
